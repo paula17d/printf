@@ -6,11 +6,11 @@
 /*   By: pdrettas <pdrettas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/25 15:31:14 by pdrettas          #+#    #+#             */
-/*   Updated: 2024/10/28 01:54:49 by pdrettas         ###   ########.fr       */
+/*   Updated: 2024/11/11 17:17:34 by pdrettas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "ft_printf.h"
 
 int	amount_of_digits(int n)
 {

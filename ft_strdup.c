@@ -6,11 +6,11 @@
 /*   By: pdrettas <pdrettas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/22 11:31:34 by pdrettas          #+#    #+#             */
-/*   Updated: 2024/10/24 19:40:56 by pdrettas         ###   ########.fr       */
+/*   Updated: 2024/11/11 16:27:49 by pdrettas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "ft_printf.h"
 
 char	*ft_strdup(const char *s1)
 {
