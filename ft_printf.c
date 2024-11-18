@@ -6,7 +6,7 @@
 /*   By: pdrettas <pdrettas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/31 14:15:36 by pdrettas          #+#    #+#             */
-/*   Updated: 2024/11/12 17:51:37 by pdrettas         ###   ########.fr       */
+/*   Updated: 2024/11/18 15:57:14 by pdrettas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ int	ft_printf(const char *string_output, ...)
 		else
 			bytes = write(1, &string_output[i++], 1);
 		if (bytes == -1)
-			return (-1);
+			return (va_end(args), -1);
 		sum_bytes = sum_bytes + bytes;
 	}
 	va_end(args);
